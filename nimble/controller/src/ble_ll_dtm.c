@@ -22,6 +22,7 @@
 #if MYNEWT_VAL(BLE_LL_DIRECT_TEST_MODE) == 1
 
 #include "assert.h"
+#include "sysinit/sysinit.h"
 #include "os/os.h"
 #include "stats/stats.h"
 #include "controller/ble_ll.h"
